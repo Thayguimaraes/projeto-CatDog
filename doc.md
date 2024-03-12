@@ -13,4 +13,6 @@
 ### O sistema deve estar disponível quando necessário
 ### O sistema deve ser fácil de usar e entender.
 ### O padrão a ser seguido das informaçõçes de cadastro do usuário.
+
+# Regras de negocios
 ### 
