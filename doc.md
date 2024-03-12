@@ -15,4 +15,9 @@
 ### O padrão a ser seguido das informaçõçes de cadastro do usuário.
 
 # Regras de negocios
+### Não é permitido o cadastro de outros animais além de gato e cachorro.
+### É obrigatório no cadastro os dados pessoais do tutor.
+### O tutor pode cadastrar quantos animais ele quiser.
+### Na tela de agendamento é obrigatório o endereço do animal ou marca a tag "Animal será entregue pelo tutor".
+### Não é possivel modeificar o serviço em andamento.
 ### 
