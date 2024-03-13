@@ -20,4 +20,8 @@
 ### O tutor pode cadastrar quantos animais ele quiser.
 ### Na tela de agendamento é obrigatório o endereço do animal ou marca a tag "Animal será entregue pelo tutor".
 ### Não é possivel modeificar o serviço em andamento.
-### 
+### Para cancelamento tem um prazo de 3 horas de antecedencia, caso contrário será gerado uma taxa de cancelamento de 30,00.
+### O transporte do animal tem o valor fixo de 25,00, por solicitante e um adicional de 10% por animal.
+### Não pode ser agendado mais de 3 animais para o mesmo horário.
+### É obrigatório um número de emergência para caso de emergência.
+
