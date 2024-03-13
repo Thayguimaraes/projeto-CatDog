@@ -1,0 +1,50 @@
+body{
+    background-color: #483D8B !important;
+}
+
+.textoTitulo{
+    color: #6959CD !important;
+}
+
+#navColor{
+    background-color: #fff;
+}
+
+.colorCard{
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.containerBotoes{
+    margin-top: 40px;
+}
+
+.containerBotoesFuncionario{
+    margin-top: 20px;
+}
+
+.colorBotoes{
+    background-color: #6A5ACD !important;
+    color: #fff !important;
+}
+
+.hoverBotoes:hover{
+    background-color: #fff !important;
+    color: #6A5ACD !important;
+}
+
+.ajusteTitulo{
+    margin-top:200px;
+}
+
+.colorLigth{
+    color: #fff !important; 
+}
+
+.alinhaEsquerda{
+    margin-left: 1300px;
+}
+
+.ajustaBotoesFuncionarios{
+    margin-left: 40px;
+}
