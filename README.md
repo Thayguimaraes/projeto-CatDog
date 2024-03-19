@@ -25,7 +25,7 @@
 - Não pode ser agendado mais de 3 animais para o mesmo horário.
 - É obrigatório um número de emergência para caso de emergência.
 
-Historia de Usuario 
+# Historia de Usuario 
 
 - Sendo cliente posso cadastrar eu e meu animal para agendamento.
 - Como cliente posso ver e realizar agendamentos.
