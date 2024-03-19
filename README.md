@@ -25,3 +25,8 @@
 - Não pode ser agendado mais de 3 animais para o mesmo horário.
 - É obrigatório um número de emergência para caso de emergência.
 
+
+# Cenário de aceitação
+- Ao tentar inserir um animal diferente de gato ou cachorro sistema ira exibir mensagem de erro.
+- Permite ao usuário seguir com o cadastro após preencher todos os campos de dados do tutor.
+- 
