@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <link rel="stylesheet" href="/css/style.css">
-  <link rel="stylesheet" href="/css/stylePadrao.css">
+  <link rel="stylesheet" href="/css/boostrap.css">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,22 +9,62 @@
 </head>
 
 <body>
-   
-  <div id="navColor">
-        <div class="container-fluid">
-          <a class="navbar-brand textoTitulo" href="/htmlCliente/index.html">Pet <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
-          </svg> Dog</a>
-         
-            <div class="alinhaEsquerda">
-          <a class="navbar-brand textoTitulo" href="#">Agendar Serviços</a>
-          <a class="navbar-brand textoTitulo" href="#">Ver Produtos </a>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand textoTitulo" href="/htmlCliente/index.html">Pet <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
+      </svg> Dog</a>
+     
+        <div class="alinhaEsquerda">
+      <a class="navbar-brand textoTitulo" href="#">Agendar Serviços</a>
+      <a class="navbar-brand textoTitulo" href="#">Ver Produtos </a>
 
-       
+   
+</div>
     </div>
-        </div>
-        
-  </div>
+  </nav>
       
+  <div>
+    <form action="">
+      
+      <div class="row" id="cardcardTutorAgendamento">
+        <div class="tamanhoPadraoForm colorLigth">
+          <h1 class="alinharTitulo">Serviços Disponíveis</h1>
+    
+            <div class="sizeTitulosCheckBox" id="tituloCheckBox">
+             <div>
+              <input type="checkbox" class="sizeTitulosCheckBox sizeCheckBox" id="banho" name="banho"  />
+              <label for="banho">Banho</label>
+            </div>
+            <div>
+              <input type="checkbox" class="sizeTitulosCheckBox sizeCheckBox" id="tosaCompleta" name="tosaCompleta"  />
+              <label for="tosaCompleta">Tosa Completa</label>
+            </div>
+            <div>
+              <input type="checkbox"  class="sizeTitulosCheckBox sizeCheckBox" id="meiaTosa" name="meiaTosa"  />
+              <label for="meiaTosa">Meia Tosa</label>
+            </div>
+            <div>
+              <input type="checkbox"  class="sizeTitulosCheckBox sizeCheckBox" id="hidratacaoComum" name="hidratacaoComum"  />
+              <label for="hidratacaoComum">Hidratação Comum</label>
+            </div>
+            <div>
+              <input type="checkbox" class="sizeTitulosCheckBox sizeCheckBox"  id="hidratacaoGold" name="hidratacaoGold"  />
+              <label for="hidratacaoGold">Hidratação Gold</label>
+            </div>
+            <div>
+              <input type="checkbox"  class="sizeTitulosCheckBox sizeCheckBox" id="corteUnhas" name="corteUnhas"  />
+              <label for="corteUnhas">Corte Unhas</label>
+            </div>
+            <div>
+              <input type="checkbox"  class="sizeTitulosCheckBox sizeCheckBox"id="uberPets" name="uberPets"  />
+              <label for="uberPets">Uber Pets</label>
+            </div>
+            </div>
+
+        </div>
+      </div>
+    </form>
+  </div>
 </body>
 </html>
