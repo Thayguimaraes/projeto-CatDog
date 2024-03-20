@@ -27,11 +27,6 @@
 
 # Historia de Usuario 
 
-- Sendo cliente posso cadastrar eu e meu animal para agendamento.
-- Como cliente posso ver e realizar agendamentos.
-- Como cliente posso visualizar a lista de produtos para comprar.
-- Sendo funcionário posso ver a lista de clientes cadastrados para organizar.
-- Sendo funcionário posso ver a lista de agendamentos.
-- Sendo funcionário posso cadastrar serviços para serem realizados.
--  - Criterio de aceitação:
-    - 
+ - Como cliente quero me cadastrar e cadastrar meu animal de estimação para agendamento.
+   - Critérios de aceitação:
+     - 
