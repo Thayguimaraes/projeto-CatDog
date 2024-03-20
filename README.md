@@ -27,6 +27,6 @@
 
 # Historia de Usuario 
 
--   Como cliente quero me cadastrar e cadastrar meu animal de estimação para agendamento.
+ ## Como cliente quero me cadastrar e cadastrar meu animal de estimação para agendamento.
  - Critérios de aceitação:
  - Cliente não pode agendar mais de 3 animais no mesmo horário 
