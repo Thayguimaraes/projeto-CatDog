@@ -96,10 +96,11 @@ body{
 }
 
 .sizeTitulosCheckBox{
-    font-size: 30px !important;
-    min-width: 20px;
-    min-height: 20px;
-    margin-right: 5px;
+    font-size: 5px !important;
+    min-width: 50px;
+    min-height: 50px;
+    margin-right: 10px;
+    border-radius: 15px;
 }
 
 #cardAgendamento{
@@ -121,4 +122,8 @@ body{
 
 #tituloCheckBox{
     margin-left: 200px;
+}
+
+.cardAgendamentoServico{
+    border-radius: 15px;
 }
