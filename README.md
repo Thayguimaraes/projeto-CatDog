@@ -28,5 +28,5 @@
 # Historia de Usuario 
 
  - Como cliente quero me cadastrar e cadastrar meu animal de estimação para agendamento.
-   - Critérios de aceitação:
+ ## Critérios de aceitação:
      - 
