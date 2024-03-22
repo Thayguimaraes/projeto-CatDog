@@ -18,7 +18,7 @@
       </svg> Dog</a>
      
         <div class="alinhaEsquerda">
-      <a class="navbar-brand textoTitulo" href="#">Agendar Serviços</a>
+      <a class="navbar-brand textoTitulo" href="#">Serviços Agendados</a>
       <a class="navbar-brand textoTitulo" href="#">Ver Produtos </a>
 
    
@@ -31,98 +31,66 @@
       
       <div class="row" id="cardcardTutorAgendamento">
         <div class="tamanhoPadraoForm colorLigth">
-          <h1 class="alinharTitulo">Serviços Disponíveis</h1>
-    
-            <div class="sizeTitulosCheckBox" id="tituloCheckBox">
-              <div class="row row-cols-1 row-cols-md-6 g-4">
-  <div class="col">
-    <div class="card h-100" style="border-radius: 20px; color: #6959CD;">
-    
-      <div class="card-body">
-        
-        <i class="fa fa-shower" style="font-size: 50px;"></i>
-        <h1 class="card-title">Banho</h1>
-        <p class="card-text" ><input type="checkbox" class="sizeTitulosCheckBox sizeCheckBox" id="banho" name="banho"  /></p>
-      </div>
-    </div>
-  </div>
-
-  <div class="col">
-    <div class="card h-100" style="border-radius: 20px; color: #6959CD;">
-    
-      <div class="card-body">
-        
-        <i class="fa fa-scissors" style="font-size: 50px;"></i>
-        <h1 class="card-title">Tosa Completa</h1>
-        <p class="card-text"><input type="checkbox" class="sizeTitulosCheckBox sizeCheckBox" id="banho" name="banho"  /></p>
-      </div>
-    </div>
-  </div>
-
-  <div class="col">
-    <div class="card h-100" style="border-radius: 20px; color: #6959CD;">
-    
-      <div class="card-body">
-        
-        <i class="material-icons" style="font-size:50px">content_cut</i>
-        <h1 class="card-title">Meia Tosa</h1>
-        <p class="card-text"><input type="checkbox" class="sizeTitulosCheckBox sizeCheckBox" id="banho" name="banho"  /></p>
-      </div>
-    </div>
-  </div>
-
-  <div class="col">
-    <div class="card h-100" style="border-radius: 20px; color: #6959CD;">
-    
-      <div class="card-body">
-        
-        <i class="fas fa-soap" style="font-size: 50px;"></i>
-        <h1 class="card-title">Hidratação Comum</h1>
-        <p class="card-text"><input type="checkbox" class="sizeTitulosCheckBox sizeCheckBox" id="banho" name="banho"  /></p>
-      </div>
-    </div>
-  </div>
-
-  <div class="col">
-    <div class="card h-100" style="border-radius: 20px; color: #6959CD;">
-    
-      <div class="card-body">
-        
-        <i class="	fas fa-pump-soap" style="font-size: 50px;"></i>
-        <h1 class="card-title">Hidratação Gold</h1>
-        <p class="card-text"><input type="checkbox" class="sizeTitulosCheckBox sizeCheckBox" id="banho" name="banho"  /></p>
-      </div>
-    </div>
-  </div>
-
-  <div class="col">
-    <div class="card h-100" style="border-radius: 20px; color: #6959CD;">
-    
-      <div class="card-body">
-        
-        <i class="fa fa-shower" style="font-size: 50px;"></i>
-        <h1 class="card-title">Corte Unhas</h1>
-        <p class="card-text"><input type="checkbox" class="sizeTitulosCheckBox sizeCheckBox" id="banho" name="banho"  /></p>
-      </div>
-    </div>
-  </div>
-
-  <div class="col">
-    <div class="card h-100" style="border-radius: 20px; color: #6959CD;">
-    
-      <div class="card-body">
-        
-        <i class="fa fa-shower" style="font-size: 50px;"></i>
-        <h1 class="card-title">Transporte</h1>
-        <p class="card-text"><input type="checkbox" class="sizeTitulosCheckBox sizeCheckBox" id="banho" name="banho"  /></p>
-      </div>
-    </div>
-  </div>
-  
-</div>
+           <div class="container-fluid" id="cardAgendamento">
+            <div class="card sizeTitulosCheckBox" style="width: 30rem;">
+              <div class="card-body">
+                <h5 class="card-title tituloCardAgendamento" >Serviços Disponíveis <i class='fa fa-bath' style='font-size:55px;color:#6A5ACD'></i></h5>
+              </div>
              
-            </div>
-
+              <div class="card-body">
+                <div class="form-check itemCardAgendamento">
+                  <input class="form-check-input bordaColorida" type="checkbox" value="" id="banho">
+                  <label class="form-check-label" for="banho">
+                    Banho
+                  </label>
+                </div>
+                <div class="form-check itemCardAgendamento">
+                  <input class="form-check-input bordaColorida" type="checkbox" value="" id="meiaTosa">
+                  <label class="form-check-label" for="meiaTosa">
+                  Meia Tosa
+                  </label>
+                </div>
+                <div class="form-check itemCardAgendamento">
+                  <input class="form-check-input bordaColorida" type="checkbox" value="" id="tosaCompleta">
+                  <label class="form-check-label" for="tosaCompleta">
+                  Tosa Completa
+                  </label>
+                </div>
+                <div class="form-check itemCardAgendamento">
+                  <input class="form-check-input bordaColorida" type="checkbox" value="" id="hidratacaoSimples">
+                  <label class="form-check-label" for="hidratacaoSimples">
+                  Hidratação Simples
+                  </label>
+                </div>
+                <div class="form-check itemCardAgendamento">
+                  <input class="form-check-input bordaColorida" type="checkbox" value="" id="hidratacaoGold">
+                  <label class="form-check-label" for="hidratacaoGold">
+                  Hidratação Gold
+                  </label>
+                </div>
+                <div class="form-check itemCardAgendamento">
+                  <input class="form-check-input bordaColorida" type="checkbox" value="" id="corteUnhas">
+                  <label class="form-check-label" for="corteUnhas">
+                 Corte de Unhas
+                  </label>
+                </div>
+                <div class="form-check itemCardAgendamento">
+                  <input class="form-check-input bordaColorida" type="checkbox" value="" id="limpezaOuvido">
+                  <label class="form-check-label" for="limpezaOuvido">
+                 Limpeza Ouvido
+                  </label>
+                </div>
+                <div class="form-check itemCardAgendamento">
+                  <input class="form-check-input bordaColorida" type="checkbox" value="" id="transporte">
+                  <label class="form-check-label" for="transporte">
+                 Transporte
+                  </label>
+                </div>
+                <button type="button" class="btn itemBotaoAgendamento btn-lg">Agendar</button>
+              </div>
+            </div>  
+           
+           </div>
         </div>
       </div>
     </form>
