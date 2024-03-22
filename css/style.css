@@ -1,5 +1,6 @@
 body{
     background-color: #483D8B !important;
+    
 }
 
 .textoTitulo{
@@ -37,6 +38,19 @@ body{
 .hoverBotoes:hover{
     background-color: #fff !important;
     color: #6A5ACD !important;
+}
+.itemBotaoAgendamento{
+    background-color: #483D8B !important;
+    color: #ccc !important;
+    border-color: #ccc !important;
+    border-radius: 10px !important;
+    margin-left: 150px;
+}
+
+.itemBotaoAgendamento:hover{
+    background-color: #9198e5 !important;
+    color: #000000 !important;
+    border-color: #6A5ACD;
 }
 
 .ajusteTitulo{
@@ -96,18 +110,28 @@ body{
 }
 
 .sizeTitulosCheckBox{
-    font-size: 30px !important;
-    min-width: 20px;
-    min-height: 20px;
-    margin-right: 5px;
+  
+    border-radius: 50px !important;
 }
 
 #cardAgendamento{
-    background-color: #191970;
     margin-top: 150px;
-    margin-left: 300px;
-    margin-right: 300px;
-    border-radius: 15px;
+   margin-left: 700px;
+}
+
+.bordaColorida{
+    background-color: #9198e5 !important;
+}
+
+.itemCardAgendamento{
+    font-size: 25px;
+}
+
+.tituloCardAgendamento{
+    font-size: 35px; 
+    
+    text-align: center; 
+    color: blueviolet !important;
 }
 
 #cardTutor{
@@ -121,4 +145,8 @@ body{
 
 #tituloCheckBox{
     margin-left: 200px;
+}
+
+.cardAgendamentoServico{
+    border-radius: 15px;
 }

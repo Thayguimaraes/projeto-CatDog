@@ -2,7 +2,9 @@
 <html lang="en">
   <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="/css/boostrap.css">
-<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    
@@ -16,7 +18,7 @@
       </svg> Dog</a>
      
         <div class="alinhaEsquerda">
-      <a class="navbar-brand textoTitulo" href="#">Agendar Serviços</a>
+      <a class="navbar-brand textoTitulo" href="#">Serviços Agendados</a>
       <a class="navbar-brand textoTitulo" href="#">Ver Produtos </a>
 
    
@@ -29,39 +31,66 @@
       
       <div class="row" id="cardcardTutorAgendamento">
         <div class="tamanhoPadraoForm colorLigth">
-          <h1 class="alinharTitulo">Serviços Disponíveis</h1>
-    
-            <div class="sizeTitulosCheckBox" id="tituloCheckBox">
-             <div>
-              <input type="checkbox" class="sizeTitulosCheckBox sizeCheckBox" id="banho" name="banho"  />
-              <label for="banho">Banho</label>
-            </div>
-            <div>
-              <input type="checkbox" class="sizeTitulosCheckBox sizeCheckBox" id="tosaCompleta" name="tosaCompleta"  />
-              <label for="tosaCompleta">Tosa Completa</label>
-            </div>
-            <div>
-              <input type="checkbox"  class="sizeTitulosCheckBox sizeCheckBox" id="meiaTosa" name="meiaTosa"  />
-              <label for="meiaTosa">Meia Tosa</label>
-            </div>
-            <div>
-              <input type="checkbox"  class="sizeTitulosCheckBox sizeCheckBox" id="hidratacaoComum" name="hidratacaoComum"  />
-              <label for="hidratacaoComum">Hidratação Comum</label>
-            </div>
-            <div>
-              <input type="checkbox" class="sizeTitulosCheckBox sizeCheckBox"  id="hidratacaoGold" name="hidratacaoGold"  />
-              <label for="hidratacaoGold">Hidratação Gold</label>
-            </div>
-            <div>
-              <input type="checkbox"  class="sizeTitulosCheckBox sizeCheckBox" id="corteUnhas" name="corteUnhas"  />
-              <label for="corteUnhas">Corte Unhas</label>
-            </div>
-            <div>
-              <input type="checkbox"  class="sizeTitulosCheckBox sizeCheckBox"id="uberPets" name="uberPets"  />
-              <label for="uberPets">Uber Pets</label>
-            </div>
-            </div>
-
+           <div class="container-fluid" id="cardAgendamento">
+            <div class="card sizeTitulosCheckBox" style="width: 30rem;">
+              <div class="card-body">
+                <h5 class="card-title tituloCardAgendamento" >Serviços Disponíveis <i class='fa fa-bath' style='font-size:55px;color:#6A5ACD'></i></h5>
+              </div>
+             
+              <div class="card-body">
+                <div class="form-check itemCardAgendamento">
+                  <input class="form-check-input bordaColorida" type="checkbox" value="" id="banho">
+                  <label class="form-check-label" for="banho">
+                    Banho
+                  </label>
+                </div>
+                <div class="form-check itemCardAgendamento">
+                  <input class="form-check-input bordaColorida" type="checkbox" value="" id="meiaTosa">
+                  <label class="form-check-label" for="meiaTosa">
+                  Meia Tosa
+                  </label>
+                </div>
+                <div class="form-check itemCardAgendamento">
+                  <input class="form-check-input bordaColorida" type="checkbox" value="" id="tosaCompleta">
+                  <label class="form-check-label" for="tosaCompleta">
+                  Tosa Completa
+                  </label>
+                </div>
+                <div class="form-check itemCardAgendamento">
+                  <input class="form-check-input bordaColorida" type="checkbox" value="" id="hidratacaoSimples">
+                  <label class="form-check-label" for="hidratacaoSimples">
+                  Hidratação Simples
+                  </label>
+                </div>
+                <div class="form-check itemCardAgendamento">
+                  <input class="form-check-input bordaColorida" type="checkbox" value="" id="hidratacaoGold">
+                  <label class="form-check-label" for="hidratacaoGold">
+                  Hidratação Gold
+                  </label>
+                </div>
+                <div class="form-check itemCardAgendamento">
+                  <input class="form-check-input bordaColorida" type="checkbox" value="" id="corteUnhas">
+                  <label class="form-check-label" for="corteUnhas">
+                 Corte de Unhas
+                  </label>
+                </div>
+                <div class="form-check itemCardAgendamento">
+                  <input class="form-check-input bordaColorida" type="checkbox" value="" id="limpezaOuvido">
+                  <label class="form-check-label" for="limpezaOuvido">
+                 Limpeza Ouvido
+                  </label>
+                </div>
+                <div class="form-check itemCardAgendamento">
+                  <input class="form-check-input bordaColorida" type="checkbox" value="" id="transporte">
+                  <label class="form-check-label" for="transporte">
+                 Transporte
+                  </label>
+                </div>
+                <button type="button" class="btn itemBotaoAgendamento btn-lg">Agendar</button>
+              </div>
+            </div>  
+           
+           </div>
         </div>
       </div>
     </form>
