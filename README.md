@@ -36,3 +36,36 @@ gerenciar venda de produtos, cadastro de clientes e seus pets.
 - Não pode ser agendado mais de 3 animais para o mesmo horário.
 - É obrigatório um número de emergência.
 
+
+
+
+
+# Histórias de usuário tosador
+## História 1 - Visualizar tosador
+- Como tosador quero visualizar os dados do cliente para ofertar a melhor serviço de tosa para seu pet.
+### Critério de aceitação 
+ - Campo para consulta por nome do cliente ou nome do pet.
+ - Acesso ao cadastro de todos os clientes.
+ - Lista com acesso aos dados completos do cliente.
+ - Não permitir agendamento de serviço sem cadastro de cliente.
+
+## História 2 - Visualizar tosador
+- Como tosador quero ter acesso aos agendamentos para organizar as demandas.
+ ### Critério de aceitação 
+ - Visualizar agenda.
+ - Posibilite consultas por filtro de data/hora, nome cliente ou nome pet.
+
+## História 3 - Visualizar tosador
+- Como tosador quero ter acesso aos produtos disponivies para ofertar ao cliente.
+ ### Critério de aceitação 
+  - Tela com lista de produtos e seus respectivos preços.
+
+ ## História 4 - Visualizar tosador
+- Como tosador quero ter acesso a lista de clientes.
+ ### Critério de aceitação 
+- Posibilite consultas por filtro de nome ou nome do pet.
+
+ ## História 5 - Visualizar tosador
+- Como tosador quero visualizar os seviços agendados.
+ ### Critério de aceitação 
+ - Posibilite consultas de horarios disponiveis e permita indisponibilizar horário.
