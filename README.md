@@ -65,7 +65,34 @@ gerenciar venda de produtos, cadastro de clientes e seus pets.
  ### Critério de aceitação 
 - Posibilite consultas por filtro de nome ou nome do pet.
 
+
+# História 1
+- Sendo o usuário quero me cadastrar para armazenar as informações no sistema.
+  ## Criteiro de aceito história 1
+  >> 
+
+# História 2 
+- Usuário quer cadastrar suas informaçoes com o objetivo de armazenalas no sistema.
+
+
+# História 3
+- Feature: Apenas Um Exemplo
+- Como um usuario do Catdog
+- Eu quero acessar um formulario de cadastro
+- Para que eu possa me cadastrar e obter novas informações
+
+# Cenario: Submetendo um formulario de teste
+- Given o navegador aberto
+  -  And acessar o formulario de cadastro
+  -  And Inserir informações de cadastro
+  -  And certificar que as informações inseridas  na pagina estejam corretas  
+  -  When clicar no botao de submeter formulario
+  -  Then de inserir as informações
+- And o navegador pode ser fechado.
+
+
  ## História 5 - Visualizar tosador
 - Como tosador quero visualizar os seviços agendados.
  ### Critério de aceitação 
  - Posibilite consultas de horarios disponiveis e permita indisponibilizar horário.
+
