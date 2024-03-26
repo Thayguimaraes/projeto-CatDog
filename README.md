@@ -23,6 +23,7 @@ gerenciar venda de produtos, cadastro de clientes e seus pets.
 - O funcionário poderá cadastrar serviços para serem realizados.
 - O funcionário poderá cadastrar os produtos que serão vendidos.
 - O cliente poderá ver o serviço em andamentos.
+- O cliente poderá ter acesso a opção de cancelamento do serviço.
 
 # Não funcional
 - As abas do funcionário deveram ser protegidas contra acesso não autorizado.
@@ -45,61 +46,50 @@ gerenciar venda de produtos, cadastro de clientes e seus pets.
 
 
 
-# Histórias de usuário tosador
-## História 1 - Visualizar tosador
+# Histórias de usuário funcionário 
+## História 1 - Visualizar funcionário
 - Como tosador quero visualizar os dados do cliente para ofertar a melhor serviço de tosa para seu pet.
 ### Critério de aceitação 
- - Campo para consulta por nome do cliente ou nome do pet.
- - Acesso ao cadastro de todos os clientes.
- - Lista com acesso aos dados completos do cliente.
- - Não permitir agendamento de serviço sem cadastro de cliente.
+>> Campo para consulta por nome do cliente ou nome do pet.
+>> Acesso ao cadastro de todos os clientes.
+>> Lista com acesso aos dados completos do cliente.
+>> Não permitir agendamento de serviço sem cadastro de cliente.
 
-## História 2 - Visualizar tosador
+## História 2 - Visualizar funcionário
 - Como tosador quero ter acesso aos agendamentos para organizar as demandas.
  ### Critério de aceitação 
- - Visualizar agenda.
- - Posibilite consultas por filtro de data/hora, nome cliente ou nome pet.
+>> Visualizar agenda.
+>> Posibilite consultas por filtro de data/hora, nome cliente ou nome pet.
 
-## História 3 - Visualizar tosador
+## História 3 - Visualizar Funcionário
 - Como tosador quero ter acesso aos produtos disponivies para ofertar ao cliente.
  ### Critério de aceitação 
-  - Tela com lista de produtos e seus respectivos preços.
+>> Tela com lista de produtos e seus respectivos preços.
 
- ## História 4 - Visualizar tosador
+ ## História 4 - Visualizar funcionário
 - Como tosador quero ter acesso a lista de clientes.
  ### Critério de aceitação 
-- Posibilite consultas por filtro de nome ou nome do pet.
+>> Posibilite consultas por filtro de nome ou nome do pet.
 
+ ## História 5 - Visualizar funcionário
+- Como motorista quero a localização de busca do animal.
+### Criteiro de aceitação
+>> Quando ouver confirmação do serviço de busca e O funcionário receber uma mensagem monstrando a localização do cliente.
 
-# História 1
-- Sendo o usuário quero me cadastrar para armazenar as informações no sistema.
-  ## Criteiro de aceito história 1
-  >> 
+ ## História 6 - Visualizar funcionário
+- Com a entrega do animal o tosador podera realizar o serviço solicitado pelo cliente.
+### Criteiro de aceitação
+>> Entrega e especificações de corte escolhidas pelo dono do pet no aplicativo.
 
-# História 2 
-- Usuário quer cadastrar suas informaçoes com o objetivo de armazenalas no sistema.
+ ## História 7 - Visualizar funcionário
+- Depois da tosa ser realizada o tosador vai encaminhar o animal para o serviço de transpote.
+### Criteiro de aceitação
+>> O funcionário vai confirmar que o serviço foi realizado enviando uma notificação para o dono e para o motorista para se preparar para a entrega do animal.
 
-
-# História 3
-- Feature: Apenas Um Exemplo
-- Como um usuario do Catdog
-- Eu quero acessar um formulario de cadastro
-- Para que eu possa me cadastrar e obter novas informações
-
-# Cenario: Submetendo um formulario de teste
-- Given o navegador aberto
-  -  And acessar o formulario de cadastro
-  -  And Inserir informações de cadastro
-  -  And certificar que as informações inseridas  na pagina estejam corretas  
-  -  When clicar no botao de submeter formulario
-  -  Then de inserir as informações
-- And o navegador pode ser fechado.
-
-
- ## História 5 - Visualizar tosador
-- Como tosador quero visualizar os seviços agendados.
- ### Critério de aceitação 
- - Posibilite consultas de horarios disponiveis e permita indisponibilizar horário.
+ ## História 8 - Visualizar funcionário
+- Depois o motorista vai buscar o animal no estabelecimento para entregalo para seu dono.
+### Criteiro de aceitação
+>> Localização de entrega selecionada pelo cliente .
 
 # História de Usuario - Visão Cliente
 
