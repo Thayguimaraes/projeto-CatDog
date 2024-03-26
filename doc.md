@@ -8,9 +8,9 @@
 ## O funcionário poderá cadastrar os produtos que serão vendidos.
 ## O cliente poderá ver o serviço em andamentos.
 
-# Não funcional
+# Não funcionais
 ### As abas do funcionário deveram ser protegidas contra acesso não autorizado.
-### O sistema deve estar disponível quando necessário
+### O sistema deve estar disponível quando necessário.
 ### O sistema deve ser fácil de usar e entender.
 ### O padrão a ser seguido das informaçõçes de cadastro do usuário.
 
@@ -23,6 +23,6 @@
 ### Para cancelamento tem um prazo de 3 horas de antecedencia, caso contrário será gerado uma taxa de cancelamento de 30,00.
 ### O transporte do animal tem o valor fixo de 25,00, por solicitante e um adicional de 10% por animal.
 ### Não pode ser agendado mais de 3 animais para o mesmo horário.
-### É obrigatório um número de emergência para caso de emergência.,
+### É obrigatório um número de emergência para caso de emergência.
 
 ###
