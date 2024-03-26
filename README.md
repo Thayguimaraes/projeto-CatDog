@@ -96,3 +96,12 @@ gerenciar venda de produtos, cadastro de clientes e seus pets.
  ### Critério de aceitação 
  - Posibilite consultas de horarios disponiveis e permita indisponibilizar horário.
 
+# Historia de Usuario 
+
+ - Como cliente quero me cadastrar e cadastrar meu animal de estimação para agendamento.
+   
+- Critérios de aceitação:
+- - Cliente não pode agendar mais de 3 animais no mesmo horário.
+- - É necessário no cadastro, os dados pessoais do turor.
+- - É obrigatório número de emergência para casos de emegência.
+- - O cliente pode cadastrar quantos animais ele quiser.
