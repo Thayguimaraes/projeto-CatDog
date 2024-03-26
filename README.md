@@ -9,6 +9,11 @@ gerenciar venda de produtos, cadastro de clientes e seus pets.
 # Justificativa
 - Facilitar o dia a dia dos funcionários para possam se concentrar nos deveres e não na burocracia da empresa e suas regras de negócio.
 
+# Atores
+- Vendedor PetShop
+- Dono PetShop
+- Funcionário do Banho e Tosa 
+
 # Funcional
 - O cliente poderá fazer o cadastro dele e do animal de estimação, e essas informações será armazenadas.
 - O cliente poderá ver e realizar o agendamento de serviços.
