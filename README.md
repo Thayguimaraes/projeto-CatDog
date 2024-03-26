@@ -25,9 +25,10 @@
 - Não pode ser agendado mais de 3 animais para o mesmo horário.
 - É obrigatório um número de emergência para caso de emergência.
 
-# Historia de Usuario 
+# História de Usuario 
 
- - Como cliente quero me cadastrar e cadastrar meu animal de estimação para agendamento.
+História 1
+- Como cliente quero me cadastrar e cadastrar meu animal de estimação para agendamento.
    
 - Critérios de aceitação:
 - - Cliente não pode agendar mais de 3 animais no mesmo horário.
