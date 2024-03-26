@@ -27,11 +27,19 @@
 
 # História de Usuario 
 
-História #1 
-- Como cliente quero me cadastrar e cadastrar meu animal de estimação para agendamento.
+História #1 - Cadastro de animais e pessoal.
+- Como cliente quero me cadastrar e cadastrar meu animal de estimação para agendamento de serviços.
    
 - Critérios de aceitação:
-- - Cliente não pode agendar mais de 3 animais no mesmo horário.
 - - É necessário no cadastro, os dados pessoais do turor.
 - - É obrigatório número de emergência para casos de emegência.
 - - O cliente pode cadastrar quantos animais ele quiser.
+
+ História #2 - Agendamento de serviços.
+ - Como cliente quero ver a lista de agendamentos de serviços e realizar agendamentos.
+
+- Critérios de aceitação:
+- - Na tela de agendamento é obrigatório o endereço do animal ou a marcar a tag "Animal será entregue pelo tutor".
+- - Não é possivel agendar mais de 3 animais para o mesmo horário.
+
+História #3 - 
