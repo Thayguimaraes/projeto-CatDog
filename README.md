@@ -1,3 +1,14 @@
+# Objetivo
+- Prover um software de gerenciamento de um PetShop que facilite a vida dos funcionários no comprimento da sua carga horária diária. 
+O Sistema fará o gerenciamento dos serviços disponíveis para os clientes, horários e histórico de cada serviço. Além disso irá 
+gerenciar venda de produtos, cadastro de clientes e seus pets.
+
+# Público Alvo
+- Funcionários dos PetShop, entre 21 e 45 anos, amantes de animais.
+
+# Justificativa
+- Facilitar o dia a dia dos funcionários para possam se concentrar nos deveres e não na burocracia da empresa e suas regras de negócio.
+
 # Funcional
 - O cliente poderá fazer o cadastro dele e do animal de estimação, e essas informações será armazenadas.
 - O cliente poderá ver e realizar o agendamento de serviços.
@@ -23,7 +34,37 @@
 - Para cancelamento tem um prazo de 3 horas de antecedencia, caso contrário será gerado uma taxa de cancelamento de 30,00.
 - O transporte do animal tem o valor fixo de 25,00, por solicitante e um adicional de 10% por animal.
 - Não pode ser agendado mais de 3 animais para o mesmo horário.
-- É obrigatório um número de emergência para caso de emergência.
+- É obrigatório um número de emergência.
+
+
+
+
+
+# Histórias de usuário tosador
+## História 1 - Visualizar tosador
+- Como tosador quero visualizar os dados do cliente para ofertar a melhor serviço de tosa para seu pet.
+### Critério de aceitação 
+ - Campo para consulta por nome do cliente ou nome do pet.
+ - Acesso ao cadastro de todos os clientes.
+ - Lista com acesso aos dados completos do cliente.
+ - Não permitir agendamento de serviço sem cadastro de cliente.
+
+## História 2 - Visualizar tosador
+- Como tosador quero ter acesso aos agendamentos para organizar as demandas.
+ ### Critério de aceitação 
+ - Visualizar agenda.
+ - Posibilite consultas por filtro de data/hora, nome cliente ou nome pet.
+
+## História 3 - Visualizar tosador
+- Como tosador quero ter acesso aos produtos disponivies para ofertar ao cliente.
+ ### Critério de aceitação 
+  - Tela com lista de produtos e seus respectivos preços.
+
+ ## História 4 - Visualizar tosador
+- Como tosador quero ter acesso a lista de clientes.
+ ### Critério de aceitação 
+- Posibilite consultas por filtro de nome ou nome do pet.
+
 
 # História 1
 - Sendo o usuário quero me cadastrar para armazenar as informações no sistema.
@@ -48,4 +89,10 @@
   -  When clicar no botao de submeter formulario
   -  Then de inserir as informações
 - And o navegador pode ser fechado.
+
+
+ ## História 5 - Visualizar tosador
+- Como tosador quero visualizar os seviços agendados.
+ ### Critério de aceitação 
+ - Posibilite consultas de horarios disponiveis e permita indisponibilizar horário.
 

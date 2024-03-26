@@ -1,5 +1,6 @@
 body{
     background-color: #483D8B !important;
+    
 }
 
 .textoTitulo{
@@ -10,25 +11,17 @@ body{
     color: #483D8B !important;
 }
 
-#navColor{
-    background-color: #fff;
-    position: relative;
-    min-height: 60px;
-    margin-bottom: 60px;
-    margin-top: -1%;
-    margin-left: -1%;
-    margin-right: -1%;
-    border: 5px solid transparent;
-}
-
 .colorCard{
     background-color: #fff;
     border-radius: 15px;
 }
 
 .containerBotoes{
-    margin-top: 40px;
-    font-size: 40px;
+    margin-top: 75px;
+  margin-left: 28px;
+  font-size: 40px;
+  
+    
    
 }
 
@@ -45,6 +38,19 @@ body{
 .hoverBotoes:hover{
     background-color: #fff !important;
     color: #6A5ACD !important;
+}
+.itemBotaoAgendamento{
+    background-color: #483D8B !important;
+    color: #ccc !important;
+    border-color: #ccc !important;
+    border-radius: 10px !important;
+    margin-left: 150px;
+}
+
+.itemBotaoAgendamento:hover{
+    background-color: #9198e5 !important;
+    color: #000000 !important;
+    border-color: #6A5ACD;
 }
 
 .ajusteTitulo{
@@ -66,76 +72,9 @@ body{
 
 
 
-.container-fluid {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto
-}
-.container {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto
-}
-
 .text-center {
     text-align: center
 }
-
-
-.btn {
-    display: inline-block;
-    padding: 12px 12px;
-    margin-bottom: 1;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.42857143;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    -ms-touch-action: manipulation;
-    touch-action: manipulation;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    background-image: none;
-    border: 1px solid transparent;
-    border-radius: 4px;
-}
-.navbar-inverse .navbar-brand {
-    color: #9d9d9d
-}
-
-.navbar {
-    position: relative;
-    min-height: 50px;
-    margin-bottom: 20px;
-    border: 1px solid transparent
-}
-
-.navbar-nav>li>a {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    line-height: 20px
-}
-
-.navbar-brand {
-    float: left;
-    height: 50px;
-    padding: 20px 20px;
-    font-size: 20px;
-    line-height: 20px
-}
-
-.row {
-    margin-right: -20px;
-    margin-left: -20px
-}
-
-
 
 
 .tamanhoPadraoForm
@@ -170,3 +109,44 @@ body{
     text-decoration: none
 }
 
+.sizeTitulosCheckBox{
+  
+    border-radius: 50px !important;
+}
+
+#cardAgendamento{
+    margin-top: 150px;
+   margin-left: 700px;
+}
+
+.bordaColorida{
+    background-color: #9198e5 !important;
+}
+
+.itemCardAgendamento{
+    font-size: 25px;
+}
+
+.tituloCardAgendamento{
+    font-size: 35px; 
+    
+    text-align: center; 
+    color: blueviolet !important;
+}
+
+#cardTutor{
+    background-color: #6959CD;
+   
+    border-radius: 10px;
+}
+.alinharTitulo{
+    text-align: center;
+}
+
+#tituloCheckBox{
+    margin-left: 200px;
+}
+
+.cardAgendamentoServico{
+    border-radius: 15px;
+}
