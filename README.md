@@ -78,7 +78,7 @@ gerenciar venda de produtos, cadastro de clientes e seus pets.
 
  ## História 7 - Visualizar funcionário
 - Depois da tosa ser realizada o tosador vai encaminhar o animal para o serviço de transpote.
-# Criteiro de aceitação
+## Criteiro de aceitação
 >> O funcionário vai confirmar que o serviço foi realizado enviando uma notificação para o dono e para o motorista para se preparar para a entrega do animal.
 
  ## História 8 - Visualizar funcionário
