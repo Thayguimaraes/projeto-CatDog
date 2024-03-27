@@ -93,38 +93,38 @@ gerenciar venda de produtos, cadastro de clientes e seus pets.
 
 # História de Usuario - Visão Cliente
 
-História #1 - Cadastro de animais e pessoal.
+## História #1 - Cadastro de animais e pessoal.
 - Como cliente quero me cadastrar e cadastrar meu animal de estimação para agendamento de serviços.
    
-- Critérios de aceitação:
-- - É necessário no cadastro, os dados pessoais do tutor.
-- - É obrigatório número de emergência para casos de emegência.
-- - O cliente pode cadastrar quantos animais ele quiser.
+## Critérios de aceitação:
+>> É necessário no cadastro, os dados pessoais do tutor.
+>> É obrigatório número de emergência para casos de emegência.
+>> O cliente pode cadastrar quantos animais ele quiser.
 
- História #2 - Agendamento de serviços.
- - Como cliente quero ver a lista de agendamentos de serviços e realizar agendamentos.
+ ## História #2 - Agendamento de serviços.
+- Como cliente quero ver a lista de agendamentos de serviços e realizar agendamentos.
 
-- Critérios de aceitação:
-- - Na tela de agendamento é obrigatório o endereço do animal ou a marcar a tag "Animal será entregue pelo tutor".
-- - Não é possivel agendar mais de 3 animais para o mesmo horário.
+## Critérios de aceitação:
+>> Na tela de agendamento é obrigatório o endereço do animal ou a marcar a tag "Animal será entregue pelo tutor".
+>> Não é possivel agendar mais de 3 animais para o mesmo horário.
 
-História #3 - Produtos. 
-- Como cliente quero ver os produtos disponíveis para comprar.
+## História #3 - Produtos. 
+-  Como cliente quero ver os produtos disponíveis para comprar.
 
-- Critérios de aceitação:
-- - É obrigatório o cliente ser cadastrado para realizar compras.
-- - O cliente pode comprar quantos itens quiser se tiver estoque.
+## Critérios de aceitação:
+>> É obrigatório o cliente ser cadastrado para realizar compras.
+>> O cliente pode comprar quantos itens quiser se tiver estoque.
 
-História #4 - Serviços em andamento
-- Como cliente quero ver meus serviços agendados em andamento para ver disponibilidade de busca do pet, para pagamento se o serviços estiver concluído.
+## História #4 - Serviços em andamento
+-  Como cliente quero ver meus serviços agendados em andamento para ver disponibilidade de busca do pet, para pagamento se o serviços estiver concluído.
 
-- Critérios de aceitação:
-- - Não é possivel modeificar o serviço em andamento.
+## Critérios de aceitação:
+>> Não é possivel modeificar o serviço em andamento.
 
-História #6 - Cancelamento de serviços.
+## História #6 - Cancelamento de serviços.
 - Como cliente quero visualizar meus serviços agendados para cancelamento.
 
-- Critérios de aceitação:
-- - O cliente pode cancelar quantos serviços agendados ele quiser.
-- - Para cancelamento tem um prazo de 3 horas de antecedencia, caso contrário será gerado uma taxa de cancelamento de 30,00.
+## Critérios de aceitação:
+>> O cliente pode cancelar quantos serviços agendados ele quiser.
+>> Para cancelamento tem um prazo de 3 horas de antecedencia, caso contrário será gerado uma taxa de cancelamento de 30,00.
   
