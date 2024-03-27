@@ -44,7 +44,7 @@ gerenciar venda de produtos, cadastro de clientes e seus pets.
 # Histórias de usuário funcionário 
 ## História 1 - Visualizar funcionário
 - Como tosador quero visualizar os dados do cliente para ofertar a melhor serviço de tosa para seu pet.
-### Critério de aceitação 
+# Critério de aceitação 
 >> Campo para consulta por nome do cliente ou nome do pet.
 >> Acesso ao cadastro de todos os clientes.
 >> Lista com acesso aos dados completos do cliente.
@@ -52,33 +52,33 @@ gerenciar venda de produtos, cadastro de clientes e seus pets.
 
 ## História 2 - Visualizar funcionário
 - Como tosador quero ter acesso aos agendamentos para organizar as demandas.
- ### Critério de aceitação 
+ # Critério de aceitação 
 >> Visualizar agenda.
 >> Posibilite consultas por filtro de data/hora, nome cliente ou nome pet.
 
 ## História 3 - Visualizar Funcionário
 - Como tosador quero ter acesso aos produtos disponivies para ofertar ao cliente.
- ### Critério de aceitação 
+ # Critério de aceitação 
 >> Tela com lista de produtos e seus respectivos preços.
 
  ## História 4 - Visualizar funcionário
 - Como tosador quero ter acesso a lista de clientes.
- ### Critério de aceitação 
+ # Critério de aceitação 
 >> Posibilite consultas por filtro de nome ou nome do pet.
 
  ## História 5 - Visualizar funcionário
 - Como motorista quero a localização de busca do animal.
-### Criteiro de aceitação
+# Criteiro de aceitação
 >> Quando ouver confirmação do serviço de busca e O funcionário receber uma mensagem monstrando a localização do cliente.
 
  ## História 6 - Visualizar funcionário
 - Com a entrega do animal o tosador podera realizar o serviço solicitado pelo cliente.
-### Criteiro de aceitação
+# Criteiro de aceitação
 >> Entrega e especificações de corte escolhidas pelo dono do pet no aplicativo.
 
  ## História 7 - Visualizar funcionário
 - Depois da tosa ser realizada o tosador vai encaminhar o animal para o serviço de transpote.
-### Criteiro de aceitação
+# Criteiro de aceitação
 >> O funcionário vai confirmar que o serviço foi realizado enviando uma notificação para o dono e para o motorista para se preparar para a entrega do animal.
 
  ## História 8 - Visualizar funcionário
