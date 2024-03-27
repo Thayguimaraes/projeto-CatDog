@@ -83,6 +83,6 @@ gerenciar venda de produtos, cadastro de clientes e seus pets.
 
  ## História 8 - Visualizar funcionário
 - Depois o motorista vai buscar o animal no estabelecimento para entregalo para seu dono.
-### Criteiro de aceitação
+# Criteiro de aceitação
 >> Localização de entrega selecionada pelo cliente .
 
