@@ -43,7 +43,7 @@ gerenciar venda de produtos, cadastro de clientes e seus pets.
 
 # Histórias de usuário funcionário 
 ## História 1 - Visualizar funcionário
-- Como tosador quero visualizar os dados do cliente para ofertar a melhor serviço de tosa para seu pet.
+>> Como tosador quero visualizar os dados do cliente para ofertar a melhor serviço de tosa para seu pet.
 ## Critério de aceitação 
 >> Campo para consulta por nome do cliente ou nome do pet.
 >> Acesso ao cadastro de todos os clientes.
