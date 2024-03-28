@@ -8,9 +8,11 @@ body{
 .colorBotoes{
     background-color: #6A5ACD !important;
     color: #fff !important;
-    font-size: 20px !important;
 }
 
+.bordaRoxa{
+    border-color: #6A5ACD !important;
+}
 .corTexto{
     color: #483D8B !important;
 }
