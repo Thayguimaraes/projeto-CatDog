@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <link rel="stylesheet" href="/Front-end/css/style.css">
-  <link rel="stylesheet" href="/Front-end/css/stylePadrao.css">
+  <link rel="stylesheet" href="/Front-end/css/boostrap.css">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,22 +9,181 @@
 </head>
 
 <body>
-   
-  <div id="navColor">
-        <div class="container-fluid">
-          <a class="navbar-brand textoTitulo" href="/htmlCliente/index.html">Pet <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
-          </svg> Dog</a>
-         
-            <div class="alinhaEsquerda">
-          <a class="navbar-brand textoTitulo" href="#">Agendar Serviços</a>
-          <a class="navbar-brand textoTitulo" href="#">Ver Produtos </a>
-
-       
-    </div>
-        </div>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand textoTitulo" href="#">Pet<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
+      </svg>Dog</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link textoTitulo" aria-current="page" href="/Front-end/htmlCliente/index.html">Página Inicial</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link textoTitulo" aria-current="page" href="#">Meus Agendamentos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link textoTitulo" aria-current="page" href="/Front-end/htmlCliente/cadastro.html">Cadastro</a>
+          </li>
+        </ul>
         
-  </div>
+      </div>
+    </div>
+  </nav>
+  <br>
+  <div class="container">
+    <div class="card">
+      <div class="card-header tituloAgendamento">
+        Agendar Serviços
+      </div>
+      <div class="card-body">
+        <div class="row">
+          <div class="col-sm-4 mb-3 mb-sm-2">
+        <div class="container">
+        
+         
+            <label class="form-label tituloAgendamento">Escolha os Serviços:</label>
+            <ul class="list-group" style="max-width: 18rem;">
+              <li class="list-group-item ajusteTamanhos">
+                <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckboxStretched">
+                <label class="form-check-label stretched-link textoTitulo" for="firstCheckboxStretched">Banho</label>
+                </li>
+                <li class="list-group-item ajusteTamanhos">
+                <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckboxStretched">
+                <label class="form-check-label stretched-link textoTitulo" for="firstCheckboxStretched">Tosa Higienica</label>
+              </li>
+              <li class="list-group-item ajusteTamanhos">
+                <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckboxStretched">
+                <label class="form-check-label stretched-link textoTitulo" for="secondCheckboxStretched">Tosa Completa</label>
+              </li>
+              <li class="list-group-item ajusteTamanhos">
+                <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckboxStretched">
+                <label class="form-check-label stretched-link textoTitulo" for="secondCheckboxStretched">Hidratação Comum</label>
+              </li>
+              <li class="list-group-item ajusteTamanhos">
+                <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckboxStretched">
+                <label class="form-check-label stretched-link textoTitulo" for="secondCheckboxStretched">Hidratação Gold</label>
+              </li>
+              <li class="list-group-item ajusteTamanhos">
+                <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckboxStretched">
+                <label class="form-check-label stretched-link textoTitulo" for="secondCheckboxStretched">Limpeza Ouvidos</label>
+              </li>
+              <li class="list-group-item ajusteTamanhos">
+                <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckboxStretched">
+                <label class="form-check-label stretched-link textoTitulo" for="secondCheckboxStretched">Lixamento Unhas</label>
+              </li>
+              <li class="list-group-item ajusteTamanhos">
+                <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckboxStretched">
+                <label class="form-check-label stretched-link textoTitulo" for="secondCheckboxStretched">Transporte</label>
+              </li>
+            
+            </ul>
+            
       
+          
+        </div>
+      </div>
+      <div class="col-sm-4 mb-3 mb-sm-2">
+        <div class="container">
+          <label class="form-label tituloAgendamento">Escolha os Horarios:</label>
+          
+            <ul class="list-group" style="max-width: 18rem;">
+              <li class="list-group-item ajusteTamanhos">
+                <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckboxStretched">
+                <label class="form-check-label stretched-link textoTitulo" for="firstCheckboxStretched">Banho</label>
+                </li>
+                <li class="list-group-item ajusteTamanhos">
+                <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckboxStretched">
+                <label class="form-check-label stretched-link textoTitulo" for="firstCheckboxStretched">Tosa Higienica</label>
+              </li>
+              <li class="list-group-item ajusteTamanhos">
+                <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckboxStretched">
+                <label class="form-check-label stretched-link textoTitulo" for="secondCheckboxStretched">Tosa Completa</label>
+              </li>
+              <li class="list-group-item ajusteTamanhos">
+                <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckboxStretched">
+                <label class="form-check-label stretched-link textoTitulo" for="secondCheckboxStretched">Hidratação Comum</label>
+              </li>
+              <li class="list-group-item ajusteTamanhos">
+                <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckboxStretched">
+                <label class="form-check-label stretched-link textoTitulo" for="secondCheckboxStretched">Hidratação Gold</label>
+              </li>
+              <li class="list-group-item ajusteTamanhos">
+                <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckboxStretched">
+                <label class="form-check-label stretched-link textoTitulo" for="secondCheckboxStretched">Limpeza Ouvidos</label>
+              </li>
+              <li class="list-group-item ajusteTamanhos">
+                <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckboxStretched">
+                <label class="form-check-label stretched-link textoTitulo" for="secondCheckboxStretched">Lixamento Unhas</label>
+              </li>
+              <li class="list-group-item ajusteTamanhos">
+                <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckboxStretched">
+                <label class="form-check-label stretched-link textoTitulo" for="secondCheckboxStretched">Transporte</label>
+              </li>
+            
+            </ul>
+            
+      
+          
+        </div>
+      </div>
+      <div class="col-sm-4 mb-3 mb-sm-2">
+        <div class="container">
+        
+            <label class="form-label tituloAgendamento">Escolha o Pet:</label>
+            <ul class="list-group" style="max-width: 18rem;">
+              <li class="list-group-item ajusteTamanhos">
+                <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckboxStretched">
+                <label class="form-check-label stretched-link textoTitulo" for="firstCheckboxStretched">Banho</label>
+                </li>
+                <li class="list-group-item ajusteTamanhos">
+                <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckboxStretched">
+                <label class="form-check-label stretched-link textoTitulo" for="firstCheckboxStretched">Tosa Higienica</label>
+              </li>
+              <li class="list-group-item ajusteTamanhos">
+                <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckboxStretched">
+                <label class="form-check-label stretched-link textoTitulo" for="secondCheckboxStretched">Tosa Completa</label>
+              </li>
+              <li class="list-group-item ajusteTamanhos">
+                <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckboxStretched">
+                <label class="form-check-label stretched-link textoTitulo" for="secondCheckboxStretched">Hidratação Comum</label>
+              </li>
+              <li class="list-group-item ajusteTamanhos">
+                <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckboxStretched">
+                <label class="form-check-label stretched-link textoTitulo" for="secondCheckboxStretched">Hidratação Gold</label>
+              </li>
+              <li class="list-group-item ajusteTamanhos">
+                <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckboxStretched">
+                <label class="form-check-label stretched-link textoTitulo" for="secondCheckboxStretched">Limpeza Ouvidos</label>
+              </li>
+              <li class="list-group-item ajusteTamanhos">
+                <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckboxStretched">
+                <label class="form-check-label stretched-link textoTitulo" for="secondCheckboxStretched">Lixamento Unhas</label>
+              </li>
+              <li class="list-group-item ajusteTamanhos">
+                <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckboxStretched">
+                <label class="form-check-label stretched-link textoTitulo" for="secondCheckboxStretched">Transporte</label>
+              </li>
+            
+            </ul>
+            
+      
+          
+        </div>
+      </div>
+      </div>
+      </div>
+    </div>
+  </div>
+ 
+   
+      
+
+    
+
+
 </body>
 </html>

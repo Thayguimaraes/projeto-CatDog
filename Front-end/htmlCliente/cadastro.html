@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <link rel="stylesheet" href="/Front-end/css/style.css">
-  <link rel="stylesheet" href="/Front-end/css/stylePadrao.css">
+  <link rel="stylesheet" href="/Front-end/css/boostrap.css">
  
     <head>
     <meta charset="UTF-8">
@@ -10,144 +10,83 @@
 </head>
 
 <body>
-  <div id="navColor">
+  <nav class="navbar bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand textoTitulo" href="/htmlCliente/index.html">Pet <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
-        <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
-      </svg> Dog</a>
-     
-        <div class="alinhaEsquerda">
-      <a class="navbar-brand textoTitulo" href="#">Meus Agendamentos</a>
-      <a class="navbar-brand textoTitulo" href="#">Ver Produtos </a>
-   
-</div>
+      <a class="navbar-brand textoTitulo" href="/Front-end/htmlCliente/index.html">Pet<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
+          </svg>Dog</a>
+ 
+    
     </div>
+  </nav>
     
-  </div>
-    
-      
-      <div class="container text-center">
-   
-     <br>
-        <form action="" method="post">
+     <div class="container text-center">
+      <h2 class="colorLigth">Cadastro</h2>
+      <form class="row g-3">
+        <h4 class="colorLigth">Dados do Tutor</h4>
+        <div class="col-md-4">
+          <label for="nomeTutor" class="form-label colorLigth">Nome Completo</label>
+          <input type="text" class="form-control" id="nomeTutor" required>
+        </div>
+        <div class="col-md-4">
+          <label for="cpfTutor" class="form-label colorLigth">CPF</label>
+          <input type="text" class="form-control" id="cpfTutor" required>
+        </div>
+        <div class="col-md-4">
+          <label for="telefoneTutor" class="form-label colorLigth">Telefone</label>
+          <input type="text" class="form-control" id="telefoneTutor" required>
+        </div>
         
-          <h1 class="colorLigth">CADASTRO</h1>
-            <h2 class="colorLigth">Dados do Tutor:</h2>
-            <p>
-                <div class="row">
-                    <div class="tamanhoPadraoForm colorLigth">
-                        <label for="">CPF*</label>
-                          <input class="tamanhoPadraoInput" type="text" required id="cpfTutor" name="cpfTutor">
-                        </p>
-                        <p>
-                      </div>
-                      <div class="tamanhoPadraoForm colorLigth">
-                        <label for="">Nome Completo*</label>
-                          <input class="tamanhoPadraoInput" type="text" required id="cpfTutor" name="cpfTutor">
-                        
-                      </div>
-                    </p>
-                    <p>
-                      <div class="tamanhoPadraoForm colorLigth">
-                        <label for="PretendentePrincipal">Telefone*</label>
-                          <input class="tamanhoPadraoInput" type="text" required id="cpfTutor" name="cpfTutor">
-                        
-                      </div>
-                </div>
-            </p>
-            <p>
-                <h2 class="colorLigth">Dados do Animal:</h2>
-                <div class="row">
-               
-                <p>
-                    <div class="tamanhoPadraoForm colorLigth">
-                        <label for="">Nome do Pet*</label>
-                          <input class="tamanhoPadraoInput" type="text" required id="cpfTutor" name="cpfTutor">
-                       
-                      </div>
-                    </p>
-                    <p>
-                      <div class="tamanhoPadraoForm colorLigth">
-                        <label for="">Espécie:*</label>
-                          <select class="tamanhoPadraoInput" name="" id="">
-                            <option value="">Selecione...</option>
-                            <option value="">Gato</option>
-                            <option value="">Cão</option>
-                            <option value="">Outro</option>
-                          </select>
-                        
-                      </div>
-                    </p>
-                    <p>
-                      <div class="tamanhoPadraoForm colorLigth">
-                        <label for="PretendentePrincipal">Raça*</label>
-                          <input class="tamanhoPadraoInput" type="text" required id="cpfTutor" name="cpfTutor">
-                        
-                      </div>
-                    </p>
-                    <p>
-                      <div class="tamanhoPadraoForm colorLigth">
-                        <label for="PretendentePrincipal">Cor(es):*</label>
-                          <input class="tamanhoPadraoInput" type="text" required id="cpfTutor" name="cpfTutor">
-                        
-                      </div>
-                    </p>
-                    <p>
-                </div>
-                </p>
-            
-                <div class="row">
-          
-                <p>
-                    <div class="tamanhoPadraoForm colorLigth">
-                        <label for="">Sexo:*</label>
-                          <input class="tamanhoPadraoInput" type="text" required id="cpfTutor" name="cpfTutor">
-                       
-                      </div>
-                    </p>
-                    <p>
-                      <div class="tamanhoPadraoForm colorLigth">
-                        <label for="">Castrado:*</label>
-                          <select class="tamanhoPadraoInput" name="" id="">
-                            <option value="">Selecione...</option>
-                            <option value="">Sim</option>
-                            <option value="">Não</option>
-                          
-                          </select>
-                        
-                      </div>
-                    </p>
-                    <p>
-                      <div class="tamanhoPadraoForm colorLigth">
-                        <label for="PretendentePrincipal">Peso (Kgs) - Opcional:</label>
-                          <input class="tamanhoPadraoInput" type="text" required id="cpfTutor" name="cpfTutor">
-                        
-                      </div>
-                    </p>
-                    <p>
-                      <div class="tamanhoPadraoForm colorLigth">
-                        <label for="PretendentePrincipal">Tipo de Pelagem:*</label>
-                        <select class="tamanhoPadraoInput" name="" id="">
-                            <option value="">Selecione...</option>
-                            <option value="">Liso - Rente ao Corpot</option>
-                            <option value="">Curto - Pelagem Curta (Pastor Alemão, Sharpei,...)</option>
-                            <option value="">Longo - Pelo Grande e Longo</option>
-                          </select>
-                        
-                      </div>
-                    </p>
-                    <p>
-                </div>
-            </p>
-
-         <br>
-            <p>
-                <button type="button" class="btn btn-lg colorBotoes hoverBotoes">Proximo</button>
-            </p>
-       
-        </form>
-   
-    </div>
-
+        <h4 class="colorLigth">Dados do Pet</h4>
+        <div class="col-md-4">
+          <label for="nomePet" class="form-label colorLigth">Nome</label>
+          <input type="text" class="form-control" id="nomePet" required>
+        </div>
+        <div class="col-md-2">
+          <label for="especiePet" class="form-label colorLigth">Especie</label>
+          <select class="form-select" id="especiePet" required>
+            <option selected value="">Selecione...</option>
+            <option>Cachorro</option>
+            <option>Gato</option>
+          </select>
+        </div>
+        <div class="col-md-3">
+          <label for="racapet" class="form-label colorLigth">Raça</label>
+          <input type="text" class="form-control" id="racapet" required>
+        </div>
+        <div class="col-md-3">
+          <label for="corPet" class="form-label colorLigth">Cor(es):</label>
+          <input type="text" class="form-control" id="corPet" required>
+        </div>
+        <div class="col-md-3">
+          <label for="sexoPet" class="form-label colorLigth">Sexo:</label>
+          <input type="text" class="form-control" id="sexoPet" required>
+        </div>
+        <div class="col-md-3">
+          <label for="pesoPet" class="form-label colorLigth">Peso:</label>
+          <input type="text" class="form-control" id="pesoPet" required>
+        </div>
+        <div class="col-md-3">
+          <label for="castradoPet" class="form-label colorLigth">Castrado?</label>
+          <select class="form-select" id="castradoPet" required>
+            <option selected value="">Selecione...</option>
+            <option>Sim</option>
+            <option>Não</option>
+          </select>
+        </div>
+        <div class="col-md-3">
+          <label for="tipoPelagemPet" class="form-label colorLigth">Tipo de Pelagem:</label>
+          <select class="form-select" id="tipoPelagemPet" required>
+            <option selected value="">Selecione...</option>
+            <option>Liso - Rente ao Curto</option>
+            <option>Pelagem Curta (Pastor Alemão, Sharpei,...)</option>
+            <option>Longo - Pelo Grande e Longo</option>
+          </select>
+        </div>
+        <div class="col-12">
+          <button class="btn colorBotoes" type="submit">Enviar </button>
+        </div>
+      </form>
+     </div>
     </body>
 </html>
