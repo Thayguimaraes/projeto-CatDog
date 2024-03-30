@@ -1,4 +1,4 @@
-# >> 1 Funcionais
+# 1 Funcionais
 ## 1.1 cliente poderá fazer o cadastro dele e do animal de estimação, e essas informações será armazenadas.
 ## 1.2 cliente poderá ver e realizar o agendamento de serviços.
 ## 1.3 cliente poderá visualizar os produtos disponíveis e fazer a compras deles.
@@ -8,11 +8,11 @@
 ## 1.7 funcionário poderá cadastrar os produtos que serão vendidos.
 ## 1.8 cliente poderá ver o serviço em andamentos.
 
-# Não funcionais
-### As abas do funcionário deveram ser protegidas contra acesso não autorizado.
-### O sistema deve estar disponível quando necessário.
-### O sistema deve ser fácil de usar e entender.
-### O padrão a ser seguido das informaçõçes de cadastro do usuário.
+# 2 Não funcionais
+### 2.1 As abas do funcionário deveram ser protegidas contra acesso não autorizado.
+### 2.2 O sistema deve estar disponível quando necessário.
+### 2.3 O sistema deve ser fácil de usar e entender.
+### 2.4 O padrão a ser seguido das informaçõçes de cadastro do usuário.
 
 # Regras de negocios
 ### Não é permitido o cadastro de outros animais além de gato e cachorro.
