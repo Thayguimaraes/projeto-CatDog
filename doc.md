@@ -1,4 +1,4 @@
-# Funcionais
+#01 Funcionais
 ## O cliente poderá fazer o cadastro dele e do animal de estimação, e essas informações será armazenadas.
 ## O cliente poderá ver e realizar o agendamento de serviços.
 ## O cliente poderá visualizar os produtos disponíveis e fazer a compras deles.
