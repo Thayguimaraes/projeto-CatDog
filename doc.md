@@ -1,12 +1,12 @@
 # 1 - Funcionais
-## 1.1 cliente poderá fazer o cadastro dele e do animal de estimação, e essas informações será armazenadas.
-## 1.2 cliente poderá ver e realizar o agendamento de serviços.
-## 1.3 cliente poderá visualizar os produtos disponíveis e fazer a compras deles.
-## 1.4 funcionário poderá ver a listagem de clientes cadastrados.
-## 1.5 funcionário poderá visualizar os serviços agendados.
-## 1.6 funcionário poderá cadastrar serviços para serem realizados.
-## 1.7 funcionário poderá cadastrar os produtos que serão vendidos.
-## 1.8 cliente poderá ver o serviço em andamentos.
+## 1.1 - O cliente poderá fazer o cadastro dele e do animal de estimação, e essas informações será armazenadas.
+## 1.2 - O cliente poderá ver e realizar o agendamento de serviços.
+## 1.3 - O cliente poderá visualizar os produtos disponíveis e fazer a compras deles.
+## 1.4 - O funcionário poderá ver a listagem de clientes cadastrados.
+## 1.5 - O funcionário poderá visualizar os serviços agendados.
+## 1.6 - O funcionário poderá cadastrar serviços para serem realizados.
+## 1.7 - O funcionário poderá cadastrar os produtos que serão vendidos.
+## 1.8 - O cliente poderá ver o serviço em andamentos.
 
 # 2 - Não funcionais
 ### 2.1 As abas do funcionário deveram ser protegidas contra acesso não autorizado.
