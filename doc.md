@@ -1,4 +1,4 @@
-# 1 - Funcionais
+# 1 - Requisitos Funcionais
 ## 1.1 - O cliente poderá fazer o cadastro dele e do animal de estimação, e essas informações será armazenadas.
 ## 1.2 - O cliente poderá ver e realizar o agendamento de serviços.
 ## 1.3 - O cliente poderá visualizar os produtos disponíveis e fazer a compras deles.
@@ -8,7 +8,7 @@
 ## 1.7 - O funcionário poderá cadastrar os produtos que serão vendidos.
 ## 1.8 - O cliente poderá ver o serviço em andamentos.
 
-# 2 - Não funcionais
+# 2 - Requisitos não funcionais
 ### 2.1 - As abas do funcionário deveram ser protegidas contra acesso não autorizado.
 ### 2.2 - O sistema deve estar disponível quando necessário.
 ### 2.3 - O sistema deve ser fácil de usar e entender.
