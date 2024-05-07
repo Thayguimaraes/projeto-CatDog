@@ -1,4 +1,4 @@
-package com.catdog.api;
+qpackage com.catdog.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
