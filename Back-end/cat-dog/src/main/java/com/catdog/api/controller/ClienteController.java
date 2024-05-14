@@ -16,7 +16,6 @@ public class ClienteController {
 
     @Autowired
     public ClienteController(ClienteService clienteService) {
-
         this.clienteService = clienteService;
     }
 
