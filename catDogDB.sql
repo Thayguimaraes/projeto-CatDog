@@ -1,5 +1,5 @@
-CREATE DATABASE  IF NOT EXISTS `catDog_db` /*!40100 DEFAULT CHARACTER SET utf8mb3 */ /*!80016 DEFAULT ENCRYPTION='N' */;
-USE `catDog_db`;
+CREATE DATABASE  IF NOT EXISTS `catDog` /*!40100 DEFAULT CHARACTER SET utf8mb3 */ /*!80016 DEFAULT ENCRYPTION='N' */;
+USE `catDog`;
 -- MySQL dump 10.13  Distrib 8.0.32, for Win64 (x86_64)
 --
 -- Host: 127.0.0.1    Database: catDog_db
