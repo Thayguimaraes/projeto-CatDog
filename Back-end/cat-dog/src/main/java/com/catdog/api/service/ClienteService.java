@@ -15,6 +15,4 @@ public class ClienteService {
     public List<Cliente> getCliente(){
         return clienteRepository.findAll();
     }
-
-
 }
