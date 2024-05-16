@@ -19,11 +19,7 @@ public class Cliente {
     @Column(name = "cpf", length = 45)
     private String Cpf;
 
-    public Cliente(String nome, String telefone, String cpf){
-        this.Name = nome;
-        this.Telefone = telefone;
-        this.Cpf = cpf;
-    }
+
     public int getId() {
         return Id;
     }
