@@ -19,8 +19,6 @@ public class ClienteController {
         this.clienteService = clienteService;
     }
 
-
-
     @GetMapping("/GetCliente")
     public List<Cliente> getCliente(){
         return clienteService.getCliente();
@@ -31,8 +29,4 @@ public class ClienteController {
         Cliente client = new Cliente("Thaynara", "123456789", "12345678900");
         System.out.println(client);
     }
-
-
-
-
 }
