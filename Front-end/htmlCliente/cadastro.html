@@ -84,10 +84,27 @@
           </select>
         </div>
         <div class="col-12">
-          <button class="btn colorBotoes" type="submit">Enviar </button>
+          <button class="btn colorBotoes" onclick="MyButton()">Enviar </button>
         </div>
       </form>
      </div>
-     <script src="/js/script.js"></script>
+  <script>
+      async function MyButton() {
+          $.ajax({
+              url:  URLBASE + "http://localhost:8080/CreateCliente",
+              type: "post",
+              dataType: "text",
+              contentType: false,
+              cache: false,
+              processData: false,
+              data:new FormData(document.getElementById("formCadastroClientes")),
+          }).done(function(e) {
+            console.log(e)
+
+          })
+
+
+      }
+  </script>
     </body>
 </html>

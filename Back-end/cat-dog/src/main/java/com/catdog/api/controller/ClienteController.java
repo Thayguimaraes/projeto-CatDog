@@ -14,6 +14,8 @@ import java.util.List;
 public class ClienteController {
 
     private final ClienteService clienteService;
+    @Autowired
+    private ClienteRepository clienteRepository;
 
     @Autowired
     public ClienteController(ClienteService clienteService) {
@@ -27,12 +29,14 @@ public class ClienteController {
     public List<Cliente> getCliente(){
         return clienteService.getCliente();
     }
-    @Autowired
-    ClienteRepository clienteRepository;
+
     @PostMapping("/CreateCliente")
-    public Cliente createCliente(@RequestBody Cliente cliente){
-        return clienteRepository.save(cliente);
+    public void salvar(@RequestBody Cliente cliente){
+
+        clienteRepository.save(cliente);
     }
+
+
 
 
 
