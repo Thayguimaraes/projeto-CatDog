@@ -6,17 +6,18 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "cliente")
+
 public class Cliente {
     @Id
 
     @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name = "id")
     private int Id;
-    @Column(name = "nome", length = 200)
+    @Column(name = "nome")
     private String Name;
-    @Column(name = "telefone", length = 15)
+    @Column(name = "telefone")
     private String Telefone;
-    @Column(name = "cpf", length = 45)
+    @Column(name = "cpf")
     private String Cpf;
 
     public Cliente(String nome, String telefone, String cpf){
@@ -24,6 +25,7 @@ public class Cliente {
         this.Telefone = telefone;
         this.Cpf = cpf;
     }
+
     public int getId() {
         return Id;
     }
@@ -41,10 +43,6 @@ public class Cliente {
         Id = id;
     }
 
-    public void setName(String name, String telefone, String cpf) {
-        Name = name;
-        Telefone = telefone;
-        Cpf = cpf;
-    }
+
 
 }
