@@ -11,7 +11,7 @@ public class Cliente {
     @Id
 
     @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name = "id")
+
     private int Id;
     @Column(name = "nome")
     private String Name;
@@ -20,29 +20,35 @@ public class Cliente {
     @Column(name = "cpf")
     private String Cpf;
 
-    public Cliente(String nome, String telefone, String cpf){
-        this.Name = nome;
-        this.Telefone = telefone;
-        this.Cpf = cpf;
-    }
-
     public int getId() {
         return Id;
-    }
-    public String getNameCliente() {
-        return Name;
-    }
-    public String getcpfCliente() {
-        return Cpf;
-    }
-    public String getTelefoneCliente() {
-        return Telefone;
     }
 
     public void setId(int id) {
         Id = id;
     }
 
+    public String getName() {
+        return Name;
+    }
 
+    public void setName(String name) {
+        Name = name;
+    }
 
+    public String getTelefone() {
+        return Telefone;
+    }
+
+    public void setTelefone(String telefone) {
+        Telefone = telefone;
+    }
+
+    public String getCpf() {
+        return Cpf;
+    }
+
+    public void setCpf(String cpf) {
+        Cpf = cpf;
+    }
 }
