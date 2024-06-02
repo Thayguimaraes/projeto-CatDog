@@ -24,7 +24,7 @@ public class EstadoCivilController {
     private EstadoCivilRepository estadoCivilRepository;
 
     @Autowired
-    public estadoCivilController(estadoCivilService estadoCivilService) {
+    public EstadoCivilController(EstadoCivilService estadoCivilService) {
 
         this.estadoCivilService = estadoCivilService;
     }
@@ -33,7 +33,7 @@ public class EstadoCivilController {
 
     @GetMapping("/GetEstadoCivil")
     public List<EstadoCivil> getEstadoCivil(){
-        return EstadoCivilService.getEstadoCivil();
+        return estadoCivilService.getEstadoCivil();
     }
 
     @GetMapping("/GetEstadoCivilById/{id}")

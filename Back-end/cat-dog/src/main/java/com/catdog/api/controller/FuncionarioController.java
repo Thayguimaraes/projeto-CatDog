@@ -36,6 +36,14 @@ public class FuncionarioController {
         return funcionarioService.getFuncionario();
     }
 
+
+
+    @PostMapping("/CreateFuncionario")
+    public String salvar(@RequestBody Funcionario funcionario){
+        funcionarioRepository.save(funcionario);
+        return "Funcionario Cadastrado com sucesso";
+    }
+
     @GetMapping("/GetFuncionarioById/{id}")
     public Funcionario getFuncionarioById(@PathVariable Long id) {
         var funcionarioOptional = funcionarioRepository.findById(id);
@@ -44,14 +52,6 @@ public class FuncionarioController {
         }
         return funcionarioOptional.get();
     }
-
-    @PostMapping("/CreateFuncionario")
-    public String salvar(@RequestBody Funcionario funcionario){
-        funcionarioRepository.save(funcionario);
-        return "Funcionario Cadastrado com sucesso";
-    }
-
-
     @DeleteMapping("/DeleteFuncionario/{id}")
     @ResponseStatus(code = HttpStatus.NO_CONTENT)
     public String excluirFuncionarioPorId(@PathVariable Long id) {
