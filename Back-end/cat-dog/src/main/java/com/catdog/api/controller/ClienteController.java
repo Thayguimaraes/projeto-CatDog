@@ -29,7 +29,6 @@ public class ClienteController {
 
     @PostMapping("/CreateCliente")
     public void salvar(@RequestBody Cliente cliente){
-
         clienteRepository.save(cliente);
     }
 }

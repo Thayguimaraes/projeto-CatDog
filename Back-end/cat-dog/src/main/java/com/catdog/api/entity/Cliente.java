@@ -8,15 +8,18 @@ import jakarta.persistence.*;
 @Entity
 
 public class Cliente {
-    @Id
 
+    @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id")
     private int Id;
+
     @Column(name = "nome")
     private String Name;
+
     @Column(name = "telefone")
     private String Telefone;
+
     @Column(name = "cpf")
     private String Cpf;
 
@@ -38,11 +41,7 @@ public class Cliente {
     public String getTelefoneCliente() {
         return Telefone;
     }
-
     public void setId(int id) {
         Id = id;
     }
-
-
-
 }
