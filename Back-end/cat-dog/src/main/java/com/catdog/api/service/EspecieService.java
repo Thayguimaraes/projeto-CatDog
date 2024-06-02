@@ -3,7 +3,7 @@ package com.catdog.api.service;
 import com.catdog.api.entity.Especie;
 import com.catdog.api.repository.EspecieRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Especie;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
