@@ -1,4 +1,6 @@
 CREATE DATABASE  IF NOT EXISTS `catDog` /*!40100 DEFAULT CHARACTER SET utf8mb3 */ /*!80016 DEFAULT ENCRYPTION='N' */;
+update mysql.user set host='%' where user='root';
+FLUSH PRIVILEGES;
 USE `catDog`;
 -- MySQL dump 10.13  Distrib 8.0.32, for Win64 (x86_64)
 --
