@@ -36,7 +36,7 @@ public class EspecieController {
         return especieService.getEspecie();
     }
 
-    @GetMapping("/GetFuncionarioById/{id}")
+    @GetMapping("/GetEspecieById/{id}")
     public Especie getEspecieById(@PathVariable Long id) {
         var especieOptional = especieRepository.findById(id);
         if (especieOptional.isEmpty()) {
@@ -45,10 +45,10 @@ public class EspecieController {
         return especieOptional.get();
     }
 
-    @PostMapping("/GetFuncionario")
+    @PostMapping("/GetEspecie")
     public String salvar(@RequestBody Especie especie){
         especieRepository.save(especie);
-        return "Funcionario Cadastrado com sucesso";
+        return "Especie Cadastrado com sucesso";
     }
 
 
@@ -60,7 +60,7 @@ public class EspecieController {
             throw new ResponseStatusException(HttpStatus.NOT_FOUND);
         }
         especieRepository.delete(especieOptional.get());
-        return "Funcionario Excluido com sucesso";
+        return "Especie Excluido com sucesso";
     }
 
 

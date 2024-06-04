@@ -45,7 +45,7 @@ public class EstadoCivilController {
         return EstadoCivilOptional.get();
     }
 
-    @PostMapping("/GetEstadoCivil")
+    @PostMapping("/CreateEstadoCivil")
     public String salvar(@RequestBody EstadoCivil estadoCivil){
         estadoCivilRepository.save(estadoCivil);
         return "Estado Civil Cadastrado com sucesso";

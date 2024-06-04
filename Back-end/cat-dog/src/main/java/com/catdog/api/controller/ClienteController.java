@@ -40,9 +40,21 @@ public class ClienteController {
         return clienteOptional.get();
     }
 
-    @PostMapping("/Cliente")
+    @PostMapping("/CreateCliente")
     public String salvar(@RequestBody Cliente cliente){
         clienteRepository.save(cliente);
         return "Cliente criado com sucesso!";
     }
+
+    @DeleteMapping("/Cliente/{id}")
+    @ResponseStatus(code = HttpStatus.NO_CONTENT)
+    public String excluirClientePorId(@PathVariable Long id) {
+        var clienteOptional = clienteRepository.findById(id);
+        if (clienteOptional.isEmpty()) {
+            throw new ResponseStatusException(HttpStatus.NOT_FOUND);
+        }
+        clienteRepository.delete(clienteOptional.get());
+        return "Cliente Excluido com sucesso";
+    }
+
 }
