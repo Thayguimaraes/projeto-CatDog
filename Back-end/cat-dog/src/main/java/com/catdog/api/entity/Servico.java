@@ -11,6 +11,7 @@ public class Servico {
     @Id
 
     @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name = "id")
     private int Id;
     @Column(name = "nome_servico", length = 200)
     private String NomeServico;
@@ -34,9 +35,11 @@ public class Servico {
         Id = id;
     }
 
-    public void setServico(String name, double preco) {
-        NomeServico = name;
-        Preco = preco;
+    public void setNomeServico(String nomeServico) {
+        NomeServico = nomeServico;
     }
 
+    public void setPreco(double preco) {
+        Preco = preco;
+    }
 }
