@@ -1,5 +1,8 @@
 package com.catdog.api.controller;
 
+<<<<<<< HEAD
+import org.springframework.web.bind.annotation.RestController;
+=======
 import com.catdog.api.entity.Funcionario;
 import com.catdog.api.repository.FuncionarioRepository;
 import com.catdog.api.service.FuncionarioService;
@@ -15,10 +18,13 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 import java.util.List;
 import org.springframework.web.bind.annotation.DeleteMapping;
+>>>>>>> e0fb03397793fd59618c3643cae028f93c7b09ab
 
 @RestController
 public class FuncionarioController {
 
+<<<<<<< HEAD
+=======
     private final FuncionarioService funcionarioService;
     @Autowired
     private FuncionarioRepository funcionarioRepository;
@@ -65,4 +71,5 @@ public class FuncionarioController {
 
 
 
+>>>>>>> e0fb03397793fd59618c3643cae028f93c7b09ab
 }

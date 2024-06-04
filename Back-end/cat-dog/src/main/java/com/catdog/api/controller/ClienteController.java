@@ -25,13 +25,16 @@ public class ClienteController {
 
     @Autowired
     public ClienteController(ClienteService clienteService) {
-
         this.clienteService = clienteService;
     }
 
+<<<<<<< HEAD
+    @GetMapping("/Cliente")
+=======
 
 
         @GetMapping("/GetCliente")
+>>>>>>> e0fb03397793fd59618c3643cae028f93c7b09ab
     public List<Cliente> getCliente(){
         return clienteService.getCliente();
     }
@@ -44,12 +47,19 @@ public class ClienteController {
         return clienteOptional.get();
     }
 
+<<<<<<< HEAD
+    @PostMapping("/Cliente")
+    public void salvar(@RequestBody Cliente cliente){
+=======
     @PostMapping("/CreateCliente")
     public String salvar(@RequestBody Cliente cliente){
 
+>>>>>>> e0fb03397793fd59618c3643cae028f93c7b09ab
         clienteRepository.save(cliente);
         return "Cliente criado com sucesso!";
     }
+<<<<<<< HEAD
+=======
 
 
     @DeleteMapping("/DeleteCliente/{id}")
@@ -66,4 +76,5 @@ public class ClienteController {
 
 
 
+>>>>>>> e0fb03397793fd59618c3643cae028f93c7b09ab
 }

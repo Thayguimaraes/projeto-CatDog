@@ -1,0 +1,14 @@
+<div class="container">
+    <h1 class="text-bg-dark text-center">Lista de Clientes: </h1>
+</div>
+
+<div class="container">
+    <div class="row" *ngIf="$AllClients | async as Clients">
+        <app-card class="col-sm" *ngFor="let Client of Clients"
+            [nome]="Client.nameCliente"
+            [id]="Client.id"
+            [telefone]="Client.telefoneCliente"
+            [cpf]="Client.cpfCliente"
+        ></app-card>    
+    </div>
+</div>

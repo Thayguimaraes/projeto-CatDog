@@ -1,5 +1,10 @@
 package com.catdog.api.entity;
 
+<<<<<<< HEAD
+import jakarta.persistence.*;
+
+@Entity
+=======
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -7,11 +12,15 @@ import jakarta.persistence.*;
 
 @Entity
 
+>>>>>>> e0fb03397793fd59618c3643cae028f93c7b09ab
 public class Funcionario {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id")
     private int Id;
+<<<<<<< HEAD
+}
+=======
     @Column(name = "nome")
     private String Name;
     @Column(name = "cpf")
@@ -101,3 +110,4 @@ public class Funcionario {
         EstadoCivil = estadoCivil;
     }
 }
+>>>>>>> e0fb03397793fd59618c3643cae028f93c7b09ab

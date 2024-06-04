@@ -15,4 +15,5 @@ public class ServicoService {
     public List<Servico> getServico(){
         return servicoRepository.findAll();
     }
+
 }
