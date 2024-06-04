@@ -22,44 +22,27 @@ public class Cliente {
 
     @Column(name = "cpf")
     private String Cpf;
-<<<<<<< HEAD
 //
 //    public Cliente(String nome, String telefone, String cpf){
 //        this.Name = nome;
 //        this.Telefone = telefone;
 //        this.Cpf = cpf;
 //    }
-=======
->>>>>>> e0fb03397793fd59618c3643cae028f93c7b09ab
 
     public int getId() {
         return Id;
     }
-<<<<<<< HEAD
-    public String getNameCliente() {
-        return Nome;
-    }
-    public String getcpfCliente() {
-        return Cpf;
-    }
-    public String getTelefoneCliente() {
-        return Telefone;
-    }
-    public void setId(int id) {
-        Id = id;
-    }
-=======
 
     public void setId(int id) {
         Id = id;
     }
 
     public String getName() {
-        return Name;
+        return Nome;
     }
 
     public void setName(String name) {
-        Name = name;
+        Nome = name;
     }
 
     public String getTelefone() {
@@ -77,5 +60,4 @@ public class Cliente {
     public void setCpf(String cpf) {
         Cpf = cpf;
     }
->>>>>>> e0fb03397793fd59618c3643cae028f93c7b09ab
 }
