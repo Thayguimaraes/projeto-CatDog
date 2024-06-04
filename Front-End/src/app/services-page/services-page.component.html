@@ -1,0 +1,85 @@
+<br><br><br><br>
+
+<div class="container  bg-dark grid">
+    <h1 class="text-bg-dark text-center">Agende um Serviço</h1>
+    <div class="agendamento container ">
+        <form>
+            <div class="container">
+                <p class="text-bg-dark col-sm"> Escolha a data do agendamento: </p>
+            </div>
+
+            <div class="container">
+                <mat-form-field class="container">
+                    <mat-label>Choose a date</mat-label>
+                    <input matInput [matDatepicker]="picker">
+                    <mat-hint>MM/DD/YYYY</mat-hint>
+                    <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+                    <mat-datepicker #picker></mat-datepicker>
+                </mat-form-field>
+            </div>
+            
+            <div class="container">
+                <p class="text-bg-dark"> Digite o nome do Cliente: </p>
+            </div>
+
+            <div class="container">
+                <mat-form-field class="container" hintLabel="Max 10 characters">
+                    <mat-label>Nome</mat-label>
+                    <input matInput #input maxlength="100" placeholder="Ex. Alfredo">
+                    <mat-hint align="end">{{input.value.length}}/100</mat-hint>
+                </mat-form-field>
+            </div>
+
+            <div class="container">
+                <p class="text-bg-dark"> Digite o telefone do Cliente: </p>
+            </div>
+
+            <div class="container">
+                <mat-form-field class="container" hintLabel="Max 10 characters">
+                    <mat-label>Telefone</mat-label>
+                    <input matInput #input maxlength="100" placeholder="Ex. (31) 91234-1234">
+                    <mat-hint align="end">{{input.value.length}}/100</mat-hint>
+                </mat-form-field>
+            </div>
+            
+            <div class="container">
+                <p class="text-bg-dark"> Digite o seu do pet: </p>
+            </div>
+
+            <div class="container">
+                <mat-form-field class="container" hintLabel="Max 10 characters">
+                    <mat-label>Pet</mat-label>
+                    <input matInput #input maxlength="100" placeholder="Ex. lulu | Cachorro">
+                    <mat-hint align="end">{{input.value.length}}/100</mat-hint>
+                </mat-form-field>
+            </div>
+
+            <div class="container">
+                <p class="text-bg-dark">
+                    Selecione o tipo de serviço desejado: (Banho | Tosa)
+                </p>
+            </div>
+
+            <div class="container">
+                <mat-form-field class="container">
+                    <mat-label>Serviço</mat-label>
+                    <mat-select>
+                        <mat-option value="option">Banho</mat-option>
+                        <mat-option value="option">Tosa</mat-option>
+                    </mat-select>
+                    <mat-hint align="end">Here's the dropdown arrow ^</mat-hint>
+                </mat-form-field>
+            </div>
+
+            <br><br>
+
+            <div class="container">
+                <button class="btn btn-dark float-end" aria-label="Send Form">
+                    <mat-icon>send</mat-icon>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<br><br><br><br><br><br><br>

@@ -1,0 +1,72 @@
+<br><br><br><br>
+
+<div class="container  bg-dark grid">
+    <h1 class="text-bg-dark text-center">cadastre uma Pessoa</h1>
+    <div class="agendamento container ">
+        <form>
+            <div class="container">
+                <p class="text-bg-dark">
+                    Selecione o tipo de Pessoa que irá Cadastrar: (funcionário | Cliente)
+                </p>
+            </div>
+
+            <div class="container">
+                <mat-form-field class="container">
+                    <mat-label>Serviço</mat-label>
+                    <mat-select>
+                        <mat-option value="option">Funcionário</mat-option>
+                        <mat-option value="option">Cliente</mat-option>
+                    </mat-select>
+                    <mat-hint align="end">Here's the dropdown arrow ^</mat-hint>
+                </mat-form-field>
+            </div>
+            
+            <div class="container">
+                <p class="text-bg-dark"> Digite o nome da Pessoa: </p>
+            </div>
+
+            <div class="container">
+                <mat-form-field class="container" hintLabel="Max 10 characters">
+                    <mat-label>Nome</mat-label>
+                    <input matInput #input maxlength="100" placeholder="Ex. Alfredo">
+                    <mat-hint align="end">{{input.value.length}}/10</mat-hint>
+                </mat-form-field>
+            </div>
+
+            <div class="container">
+                <p class="text-bg-dark"> Digite o telefone da Pessoa: </p>
+            </div>
+
+            <div class="container">
+                <mat-form-field class="container" hintLabel="Max 10 characters">
+                    <mat-label>Telefone</mat-label>
+                    <input matInput #input maxlength="100" placeholder="Ex. (31) 91234-1234">
+                    <mat-hint align="end">{{input.value.length}}/100</mat-hint>
+                </mat-form-field>
+            </div>
+
+            <div class="container">
+                <p class="text-bg-dark"> Digite o CPF da Pessoa: </p>
+            </div>
+
+            <div class="container">
+                <mat-form-field class="container" hintLabel="Max 10 characters">
+                    <mat-label>Telefone</mat-label>
+                    <input matInput #input maxlength="100" placeholder="Ex. 111.222.333-44">
+                    <mat-hint align="end">{{input.value.length}}/100</mat-hint>
+                </mat-form-field>
+            </div>
+            
+
+            <br><br>
+
+            <div class="container">
+                <button class="btn btn-dark float-end" aria-label="Send Form">
+                    <mat-icon>send</mat-icon>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<br><br><br><br><br><br><br><br><br><br>

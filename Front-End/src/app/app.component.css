@@ -1,5 +1,11 @@
-.app{
+:host {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.app {
     height: 100%;
-    background-color:rgb(33, 31, 31);
+    background-color: rgb(33, 31, 31);
     width: 100%;
 }
