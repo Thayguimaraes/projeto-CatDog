@@ -15,25 +15,25 @@ public class Cliente {
     private int Id;
 
     @Column(name = "nome")
-    private String Name;
+    private String Nome;
 
     @Column(name = "telefone")
     private String Telefone;
 
     @Column(name = "cpf")
     private String Cpf;
-
-    public Cliente(String nome, String telefone, String cpf){
-        this.Name = nome;
-        this.Telefone = telefone;
-        this.Cpf = cpf;
-    }
+//
+//    public Cliente(String nome, String telefone, String cpf){
+//        this.Name = nome;
+//        this.Telefone = telefone;
+//        this.Cpf = cpf;
+//    }
 
     public int getId() {
         return Id;
     }
     public String getNameCliente() {
-        return Name;
+        return Nome;
     }
     public String getcpfCliente() {
         return Cpf;

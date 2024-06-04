@@ -22,12 +22,12 @@ public class ClienteController {
         this.clienteService = clienteService;
     }
 
-    @GetMapping("/GetCliente")
+    @GetMapping("/Cliente")
     public List<Cliente> getCliente(){
         return clienteService.getCliente();
     }
 
-    @PostMapping("/CreateCliente")
+    @PostMapping("/Cliente")
     public void salvar(@RequestBody Cliente cliente){
         clienteRepository.save(cliente);
     }

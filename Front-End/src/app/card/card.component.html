@@ -1,14 +1,13 @@
-<mat-card class="example-card">
-    <mat-card-header>
-        <mat-card-title class="text-bg-dark">Shiba Inu</mat-card-title>
-        <mat-card-subtitle class="text-bg-dark">Dog Breed</mat-card-subtitle>
+<mat-card class="bg-dark card">
+    <mat-card-header class="card-header">
+        <mat-card-title class="text-bg-dark">Nome: {{nome}}</mat-card-title>
+        <mat-card-subtitle class="text-bg-dark">Telefone: {{telefone}}</mat-card-subtitle>
     </mat-card-header>
-    <mat-card-content>
-        <p class="text-bg-dark">This card indeterminates progress bar.</p>
-        <p class="text-bg-dark">{{longText}}</p>
+    <mat-card-content class="card-body">
+        <p class="text-bg-dark">CPF:  {{cpf}}</p>
     </mat-card-content>
     <mat-card-actions>
-        <button mat-button class="text-bg-dark">LIKE</button>
-        <button mat-button class="text-bg-dark">SHARE</button>
+        <button mat-button class="text-bg-dark">Agendar Serviço</button>
+        <button mat-button class="text-bg-dark">Alterar Informações</button>
     </mat-card-actions>
 </mat-card>
